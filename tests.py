@@ -13,6 +13,11 @@ class workwtetwinTestCase(unittest.TestCase):
         name = workwtetwin.name
         self.assertEqual(name, 'mariam')
 
+    def test_number(self):
+        """ tests if num is printed"""
+        num = workwtetwin.num
+        self.assertEqual(num, 12)
+
         
         
 if __name__ == "__main__":
